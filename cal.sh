@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "project management in github"
+
 num1=`cat num1.txt`
 num2=`cat num2.txt`
 
