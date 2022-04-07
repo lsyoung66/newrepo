@@ -3,6 +3,10 @@
 num1=`cat num1.txt`
 num2=`cat num2.txt`
 
+declare -a numArray
+numArray=($num1 $num2)
+echo ${numArray[*]}
+
 echo "1) add"
 echo "2) sub"
 echo "3) div"
